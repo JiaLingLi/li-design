@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "cz-customizable": "^6.3.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -42,5 +43,10 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
   }
 }
